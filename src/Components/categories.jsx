@@ -9,8 +9,8 @@ const Categories = () => {
         { link: "Music"},
         { link: "Dance"},
         { link: "Vlogs"},
-        { link: "Food"},
-        {link: "annimations"}
+        { link: "Food"}
+        
     ]
     return ( 
         <div className="categories">
