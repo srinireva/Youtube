@@ -1,0 +1,42 @@
+.vidoes img{
+    width:360px;
+    height: 202px;
+    border-radius: 10px;
+}
+.videoData{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videdeatils{
+    width: 100%;
+}
+.vide{
+    width: 25%;
+    margin: 8px 0px;
+}
+.videdeatils h3,p,p{
+    margin: 3px;
+}
+.vide p,.vide a{
+    cursor: pointer;
+    color: purple;
+    margin: 0px;
+}
+
+.shorts img{
+    width:200px;
+    height: 350px;
+    border-radius: 10px;
+}
+.shortData{
+    display: flex;
+    
+}
+
+.short{
+    margin: 8px ;
+}
+.shortdeatils h3{
+    margin: 8px;
+}

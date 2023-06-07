@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 45px;
+}
+
+
+.serchbar input{
+    /* don't give padding because it will move the placeholder also */
+    height: 40px;
+    width: 450px;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    font-size: 18px;
+    padding-left: 20px
+}
+
+.searchbar input:focus{
+    /* border of searchbar is not a bpreder it is outline so by clickinon serach bar the outerpart will be blue in color */
+    outline: none;
+    border: 1px solid rgb(132, 206, 231);
+}
+.useroptions{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.useroptions h4{
+    background-color: crimson;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 100%;
+}
